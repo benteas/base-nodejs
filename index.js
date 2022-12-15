@@ -1,7 +1,7 @@
 var express = require('express')
 var app = express()
 app.get('/contact', (req, res) => {
-    res.send('hi my lover!')
+    res.send('hi my lover two!')
 })
 
 app.listen(3000, () => {
